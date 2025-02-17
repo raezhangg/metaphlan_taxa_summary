@@ -16,7 +16,7 @@ def summarize_taxa(meta_table_path):
 
     total_count = t_count + s_count + g_count + f_count + o_count + c_count + p_count + k_count
     if total_count != unique_taxa:
-        print(f"Warning: Sum of counts ({total_count}) does not match the number of unique taxa ({unique_taxa})")
+        print(f"Warning: Sum of counts does not match the number of unique taxa.")
 
     return {
         'Unique Taxa': unique_taxa,
