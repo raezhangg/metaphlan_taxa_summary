@@ -1,6 +1,6 @@
 # MetaPhlAn Taxa Summary Tool
 
-This tool summarizes the number of unique clade of each taxa from MetaPhlAn output files.
+This tool summarizes the number of unique clades of each taxa level from MetaPhlAn output files.
 
 ## Installation
 
