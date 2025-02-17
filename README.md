@@ -3,15 +3,17 @@
 This tool summarizes the number of unique clades of each taxa level from MetaPhlAn output files.
 
 ## Installation
-
+Download/Clone the folder: 
 ```sh
-pip install .
+git clone https://github.com/raezhangg/metaphlan_taxa_summary.git
 ```
+
 
 ## Usage
 
 ```sh
-metaphlan_summary input.txt output.txt
+python metaphlan_taxa_summary/summarize.py input_file.txt output_summary.txt
+
 ```
 
 ## License
